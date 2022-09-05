@@ -26,6 +26,9 @@
     "jsx-a11y"
   ],
   "rules": {
-    "react/function-component-definition": 0
+    "react/function-component-definition": 0,
+    "import/prefer-default-export": 0,
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-unused-vars": "warn"
   }
 }
