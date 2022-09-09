@@ -1,0 +1,55 @@
+@import "sanitize.css";
+@import "~sanitize.css/forms.css";
+@import "~sanitize.css/typography.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 border-0 outline-0 box-border list-none;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+  body {
+    @apply text-white bg-bg leading-relaxed font-poppins bg-bg-texture bg-repeat;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-medium;
+  }
+
+  h1 {
+    @apply text-4.5xl;
+  }
+
+  section {
+    @apply mt-32;
+  }
+
+  section > h2,
+  section > h5 {
+    @apply text-light text-center;
+  }
+
+  section > h2 {
+    @apply text-primary mb-12;
+  }
+
+  a {
+    @apply text-primary hover:text-white;
+  }
+  img {
+    @apply block w-full object-cover;
+  }
+}
