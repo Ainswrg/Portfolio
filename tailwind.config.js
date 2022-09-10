@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
@@ -22,7 +23,8 @@ module.exports = {
         400: '400ms',
       },
       backgroundImage: {
-        'bg-texture': "url('./assets/bg-texture.png')",
+        'bg-texture': "url('./assets/1.png')",
+        gradientBg: 'linear-gradient(#4db5ff, transparent)',
       },
     },
   },

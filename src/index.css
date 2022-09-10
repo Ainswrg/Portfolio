@@ -19,7 +19,7 @@
     @apply hidden;
   }
   body {
-    @apply text-white bg-bg leading-relaxed font-poppins bg-bg-texture bg-repeat;
+    @apply text-white bg-bg leading-relaxed font-poppins bg-bg-texture bg-repeat bg-[length:25px];
   }
   h1,
   h2,
@@ -34,7 +34,7 @@
   }
 
   section {
-    @apply mt-32;
+    @apply mt-32 h-screen;
   }
 
   section > h2,
