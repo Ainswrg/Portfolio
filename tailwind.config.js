@@ -25,6 +25,8 @@ module.exports = {
       backgroundImage: {
         'bg-texture': "url('./assets/1.png')",
         gradientBg: 'linear-gradient(#4db5ff, transparent)',
+        'gradient-me':
+          'linear-gradient(45deg, transparent, #4db5ff, transparent)',
       },
     },
   },

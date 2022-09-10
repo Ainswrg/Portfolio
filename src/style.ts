@@ -16,4 +16,11 @@ export const navbar = {
   link: 'bg-transparent p-[0.9rem] rounded-full flex text-light text-lg hover:bg-[rgba(0,0,0,0.3)]',
   active: 'bg-bg text-white',
 };
+
+export const about = {
+  card: 'bg-indigo-900 border border-solid border-transparent rounded-2xl p-8 text-center hover:bg-transparent hover:border-indigo-900 duration-300',
+  icon: 'text-primary text-[1.4rem] m-auto mb-4',
+  title: 'text-[0.95rem]',
+  small: 'text-[0.7rem] text-light',
+};
 export default styles;

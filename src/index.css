@@ -34,7 +34,7 @@
   }
 
   section {
-    @apply mt-32 h-screen;
+    @apply mt-32 h-full;
   }
 
   section > h2,
