@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
+
 import styles, { experience } from '../../style';
 
 export const Experience: React.FC = () => {
@@ -46,7 +47,7 @@ export const Experience: React.FC = () => {
               <BsFillPatchCheckFill className={`${experience.icon}`} />
               <div>
                 <h4>React</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className={`${experience.skill}`}>

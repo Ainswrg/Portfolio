@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
+
 import styles, { about } from '../../style';
 
 export const About: React.FC = () => {
@@ -26,12 +27,6 @@ export const About: React.FC = () => {
               <small className={`${about.small}`}>1+ Years Working</small>
             </article>
 
-            {/* <article className={`${about.card}`}>
-              <FaAward className={`${about.icon}`} />
-              <h5 className={`${about.title}`}>Experience</h5>
-              <small className={`${about.small}`}>1+ Years Working</small>
-            </article> */}
-
             <article className={`${about.card}`}>
               <VscFolderLibrary className={`${about.icon}`} />
               <h5 className={`${about.title}`}>Projects</h5>
@@ -42,10 +37,10 @@ export const About: React.FC = () => {
             </article>
           </div>
           <p className="m-[1.5rem_0] text-light sm:m-[1rem_0_1.5rem] lg:m-[2rem_0_2.6rem]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-            quos. Quisquam, ea perferendis. Id ducimus cupiditate dolorem
-            reiciendis sit accusantium perferendis quam quisquam voluptatum rem.
-            Nesciunt voluptatem necessitatibus perspiciatis dolorum?
+            Prolific, frontend web developer. Looking to leverage my skills to
+            produce seamless and profitable UI. Passionate about building world
+            class web applications. Seeking to build my knowledge and skills in
+            UI and Front End development as Junior Front End developer.
           </p>
           <button
             type="button"
