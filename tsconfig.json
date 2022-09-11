@@ -15,10 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"],
-      "@assets/*": ["assets/*"],
-    }, 
+      "@src/*": ["src/*"],
+      "@assets/*": ["src/assets/*"]
+    }
   },
   "include": ["src", "src/@types", "postcss.config.js", "tailwind.config.js"]
 }

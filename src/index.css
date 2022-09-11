@@ -41,9 +41,12 @@
   section > h5 {
     @apply text-light text-center;
   }
+  section small {
+    @apply text-light;
+  }
 
   section > h2 {
-    @apply text-primary mb-12;
+    @apply text-primary mb-12 text-[2rem];
   }
 
   a {
