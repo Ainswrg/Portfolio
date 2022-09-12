@@ -32,4 +32,15 @@ export const experience = {
   icon: 'mt-[6px] text-primary',
   skill: 'flex gap-4',
 };
+
+export const services = {
+  service:
+    'bg-indigo-900 rounded-b-3xl border border-solid border-primary h-fit duration-300 hover:bg-transparent hover:border-indigo-900 h-auto',
+  head: 'bg-primary p-8 rounded-b-3xl shadow-[0_2rem_1rem_rgba(0,0,0,0.1)]',
+  title: 'text-bg text-base text-center',
+  item: 'flex gap-4 mb-3',
+  icon: 'text-primary mt-[2px]',
+  paragraph: 'text-sm text-gray-200',
+};
+
 export default styles;
