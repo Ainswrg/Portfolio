@@ -43,4 +43,11 @@ export const services = {
   paragraph: 'text-sm text-gray-200',
 };
 
+export const portfolio = {
+  item: 'bg-indigo-900 p-5 rounded-[2rem] border border-solid border-transparent duration-300 hover:border-primaryVariant hover:bg-transparent flex flex-col items-center sm:items-start',
+  img: 'rounded-3xl overflow',
+  title: 'mt-5 mx-0 mb-8',
+  links: 'flex gap-4 mb-4',
+};
+
 export default styles;
