@@ -59,4 +59,10 @@ export const contacts = {
     'w-full p-6 rounded-lg bg-transparent border-2 border-solid border-primaryVariant resize-none color-white',
 };
 
+export const footer = {
+  link: 'text-bg',
+  links:
+    'flex flex-col gap-6 text-bg flex-wrap justify-center sm:flex-row sm:gap-8 mx-auto mt-0 mb-12',
+};
+
 export default styles;
