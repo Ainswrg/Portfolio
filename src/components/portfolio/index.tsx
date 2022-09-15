@@ -62,15 +62,15 @@ export const Portfolio: React.FC = () => {
       <div
         className={`${styles.container} grid grid-cols-1 gap-10 sm:grid-cols-[repeat(2,1fr)] sm:gap-4 lg:grid-cols-[repeat(3,1fr)] lg:gap-5`}
       >
-        {dataBase.map((data) => (
-          <article key={data.id} className={`${portfolio.item}`}>
+        {dataBase.map(({ id, src, title, github, demo }) => (
+          <article key={id} className={`${portfolio.item}`}>
             <div className={`${portfolio.img}`}>
-              <img src={data.src} alt="" />
+              <img src={src} alt="" />
             </div>
-            <h3 className={`${portfolio.title}`}>{data.title}</h3>
+            <h3 className={`${portfolio.title}`}>{title}</h3>
             <div className={`${portfolio.links}`}>
               <a
-                href={data.github}
+                href={github}
                 className={`${styles.button}`}
                 target="_blank"
                 rel="noreferrer"
@@ -78,7 +78,7 @@ export const Portfolio: React.FC = () => {
                 Github
               </a>
               <a
-                href={data.demo}
+                href={demo}
                 className={`${styles.button} ${styles.buttonPrimary}`}
                 target="_blank"
                 rel="noreferrer"
