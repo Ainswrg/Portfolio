@@ -50,4 +50,13 @@ export const portfolio = {
   links: 'flex gap-4 mb-4',
 };
 
+export const contacts = {
+  option:
+    'bg-indigo-900 p-5 rounded-3xl text-center border border-solid border-transparent duration-300 hover:border-primaryVariant hover:bg-transparent',
+  icon: 'text-2xl mb-2',
+  link: 'mb-3 inline-block text-sm',
+  input:
+    'w-full p-6 rounded-lg bg-transparent border-2 border-solid border-primaryVariant resize-none color-white',
+};
+
 export default styles;
