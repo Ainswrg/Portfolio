@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
         </div>
 
         <a
-          href="#contact"
+          href="#contacts"
           className="absolute -right-9 bottom-20 rotate-90 font-light text-sm hidden sm:flex"
         >
           Scroll Down

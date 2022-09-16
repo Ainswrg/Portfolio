@@ -14,7 +14,7 @@ export const header = {
 export const navbar = {
   root: 'bg-[rgba(0,0,0,0.3)] flex w-max px-7 py-3 fixed z-10 left-1/2 -translate-x-1/2 bottom-8 gap-3 rounded-[3rem] backdrop-blur-lg',
   link: 'bg-transparent p-[0.9rem] rounded-full flex text-light text-lg hover:bg-[rgba(0,0,0,0.3)]',
-  active: 'bg-bg text-white',
+  active: 'text-[#1f1f38] bg-[#4db5ff]',
 };
 
 export const about = {
@@ -53,8 +53,8 @@ export const portfolio = {
 export const contacts = {
   option:
     'bg-indigo-900 p-5 rounded-3xl text-center border border-solid border-transparent duration-300 hover:border-primaryVariant hover:bg-transparent',
-  icon: 'text-2xl mb-2',
-  link: 'mb-3 inline-block text-sm',
+  icon: 'text-[1.5rem] mb-2 mx-auto',
+  link: 'mt-[0.7rem] inline-block text-[0.8rem]',
   input:
     'w-full p-6 rounded-lg bg-transparent border-2 border-solid border-primaryVariant resize-none color-white',
 };

@@ -33,6 +33,26 @@
     @apply text-4.5xl;
   }
 
+  h2 {
+    @apply text-[1.875rem];
+  }
+
+  h3{
+    @apply text-[1.5rem];
+  }
+
+  h4 {
+    @apply text-[1.25rem];
+  }
+
+  h5 {
+    @apply text-[1.125rem];
+  }
+
+  h6 {
+    @apply text-[1rem];
+  }
+
   section {
     @apply mt-32 h-full;
   }
