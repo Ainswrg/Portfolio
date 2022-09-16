@@ -8,7 +8,7 @@ export const Services: React.FC = () => {
     <section id="services">
       <h5>What i Offer</h5>
       <h2>Services</h2>
-      {/* ToDo  */}
+
       <div className={`${styles.container} grid grid-cols-[1fr] gap-12`}>
         <article className={`${services.service}`}>
           <div className={`${services.head}`}>
@@ -19,37 +19,39 @@ export const Services: React.FC = () => {
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Work according to common development methodologies
               </p>
             </li>
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Easily and quickly extract the necessary information from
+                colleagues and the Internet
               </p>
             </li>
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Work considering the basic principles of good code such as
+                SOLID, KISS, DRY, YAGNI
               </p>
             </li>
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Creating web pages based on a ready-made sample and design
               </p>
             </li>
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Write elegant and supported code
               </p>
             </li>
             <li className={`${services.item}`}>
               <GiCheckMark className={`${services.icon}`} />
               <p className={`${services.paragraph}`}>
-                Lorem ipsum dolor sit amet, consectetur adip
+                Write a productive, responsive and convenient service
               </p>
             </li>
           </ul>
