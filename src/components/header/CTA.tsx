@@ -9,7 +9,10 @@ export const CTA: React.FC = () => {
       <a href={CV} download className={`${styles.button}`}>
         Download CV
       </a>
-      <a href="#contact" className={`${styles.button} ${styles.buttonPrimary}`}>
+      <a
+        href="#contacts"
+        className={`${styles.button} ${styles.buttonPrimary}`}
+      >
         Let&apos;s Talk
       </a>
     </div>

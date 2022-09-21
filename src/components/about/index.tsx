@@ -3,8 +3,13 @@ import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import styles, { about } from '../../style';
+import IMG from '../../assets/screen-1-2.jpg';
 
 export const About: React.FC = () => {
+  const handleClick = () => {
+    window.location.href = '#contacts';
+  };
+
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -15,7 +20,7 @@ export const About: React.FC = () => {
       >
         <div className="w-1/2 m-[2rem_auto_4rem] aspect-square rounded-3xl bg-gradient-me grid place-items-center lg:w-full sm:w-[65%] sm:m-[0_auto_3rem]">
           <div className="aspect-square rounded-3xl overflow-hidden rotate-12 hover:rotate-0 duration-300">
-            <img className="rounded-3xl overflow-hidden" src="" alt="img" />
+            <img className="rounded-3xl overflow-hidden" src={IMG} alt="img" />
           </div>
         </div>
 
@@ -45,6 +50,7 @@ export const About: React.FC = () => {
           <button
             type="button"
             className={`${styles.button} ${styles.buttonPrimary}`}
+            onClick={() => handleClick()}
           >
             Let&apos;s Talk
           </button>

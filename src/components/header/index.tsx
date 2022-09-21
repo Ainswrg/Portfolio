@@ -3,6 +3,7 @@ import React from 'react';
 import styles, { header } from '../../style';
 import { CTA } from './CTA';
 import { HeaderSocials } from './HeaderSocials';
+import IMG from '../../assets/screen3.png';
 
 export const Header: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ export const Header: React.FC = () => {
         <HeaderSocials />
 
         <div className="bg-gradientBg w-[22rem] h-[30rem] absolute left-[calc(50%-11rem)] mt-16 rounded-t-full overflow-hidden pt-20 pr-6 pb-6 pl-6">
-          <img src="" alt="img" />
+          <img src={IMG} alt="img" />
         </div>
 
         <a

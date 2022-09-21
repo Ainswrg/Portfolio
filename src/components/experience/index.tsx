@@ -33,7 +33,7 @@ export const Experience: React.FC = () => {
               <BsFillPatchCheckFill className={`${experience.icon}`} />
               <div>
                 <h4>TypeScript</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className={`${experience.skill}`}>
@@ -54,7 +54,7 @@ export const Experience: React.FC = () => {
               <BsFillPatchCheckFill className={`${experience.icon}`} />
               <div>
                 <h4>Redux</h4>
-                <small>Intermediate</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className={`${experience.skill}`}>
@@ -68,7 +68,7 @@ export const Experience: React.FC = () => {
               <BsFillPatchCheckFill className={`${experience.icon}`} />
               <div>
                 <h4>MaterialUI</h4>
-                <small>Intermediate</small>
+                <small>Basic</small>
               </div>
             </article>
           </div>
@@ -80,7 +80,7 @@ export const Experience: React.FC = () => {
               <BsFillPatchCheckFill className={`${experience.icon}`} />
               <div>
                 <h4>Node JS</h4>
-                <small>Intermediate</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className={`${experience.skill}`}>
