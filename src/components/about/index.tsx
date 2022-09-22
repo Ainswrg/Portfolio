@@ -18,7 +18,7 @@ export const About: React.FC = () => {
       <div
         className={`${styles.container} grid grid-cols-1 gap-0 lg:gap-[15%] lg:grid-cols-[35%_50%]`}
       >
-        <div className="w-1/2 m-[2rem_auto_4rem] aspect-square rounded-3xl bg-gradient-me grid place-items-center lg:w-full sm:w-[65%] sm:m-[0_auto_3rem]">
+        <div className="w-9/12 m-[2rem_auto_4rem] aspect-square rounded-3xl bg-gradient-me grid place-items-center lg:w-full sm:w-[65%] sm:m-[0_auto_3rem]">
           <div className="aspect-square rounded-3xl overflow-hidden rotate-12 hover:rotate-0 duration-300">
             <img className="rounded-3xl overflow-hidden" src={IMG} alt="img" />
           </div>

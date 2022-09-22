@@ -6,7 +6,7 @@ const styles = {
 };
 
 export const header = {
-  root: 'h-screen pt-28 overflow-hidden lg:h-screen sm:h-[68vh]',
+  root: 'h-screen pt-28 overflow-hidden lg:h-screen sm:h-[100vh]',
   social:
     'items-center mt-8 gap-3 flex-col absolute left-0 bottom-12 after:w-px after:h-8 after:bg-primary hidden sm:flex',
 };
@@ -26,7 +26,7 @@ export const about = {
 
 export const experience = {
   skills:
-    'bg-indigo-900 rounded-3xl border border-solid border-transparent hover:bg-transparent hover:border-indigo-900 duration-300 w-5/6 p-8 m-auto my-0 sm:w-full sm:py-8 sm:px-4 lg:w-full lg:py-10 lg:px-20',
+    'bg-indigo-900 rounded-3xl border border-solid border-transparent hover:bg-transparent hover:border-indigo-900 duration-300 w-full p-4 lg:p-8 m-auto my-0 sm:w-5/6 sm:py-8 sm:px-4 lg:w-full lg:py-10 lg:px-20',
   title: 'text-center mb-8 text-primary',
   content: 'grid grid-cols-[repeat(2,1fr)] gap-y-8 p-4 lg:p-0',
   icon: 'mt-[6px] text-primary',
