@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 import React from 'react';
-import CV from '../../assets/tdg.pdf';
+import CV from '../../assets/CV_Jaslan_Daulenov(FE).pdf';
 import styles from '../../style';
 
 export const CTA: React.FC = () => {
