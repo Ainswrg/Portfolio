@@ -6,7 +6,7 @@ const styles = {
 };
 
 export const header = {
-  root: 'h-screen pt-28 overflow-hidden lg:h-screen sm:h-[100vh]',
+  root: 'h-fit pt-28 overflow-hidden',
   social:
     'items-center mt-8 gap-3 flex-col absolute left-0 bottom-12 after:w-px after:h-8 after:bg-primary hidden sm:flex',
 };

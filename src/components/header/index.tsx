@@ -8,7 +8,7 @@ import IMG from '../../assets/screen3.png';
 export const Header: React.FC = () => {
   return (
     <header className={`${header.root}`}>
-      <div className={`${styles.container} h-full text-center relative`}>
+      <div className={`${styles.container} h-[47rem] text-center relative`}>
         <h5>Hello I&apos; m</h5>
         <h1>Jaslan Dev</h1>
         <h5 className="color-light">Front End Developer</h5>
