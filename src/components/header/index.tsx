@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="absolute left-[calc(50%-11rem)] mt-16 t-full  pt-20 pr-6 pb-6 pl-6">
+        <div className="bg-gradientBg w-[22rem] h-[30rem] absolute left-[calc(50%-11rem)] mt-16 rounded-t-full overflow-hidden pt-20 pr-6 pb-6 pl-6">
           <Cube />
         </div>
 
