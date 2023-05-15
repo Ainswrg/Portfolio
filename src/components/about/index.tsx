@@ -3,7 +3,7 @@ import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import styles, { about } from '../../style';
-import IMG from '../../assets/screen-1-2.jpg';
+import IMG from '../../assets/about.png';
 
 export const About: React.FC = () => {
   const handleClick = () => {
